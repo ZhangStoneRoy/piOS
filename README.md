@@ -31,8 +31,7 @@ alias sudo='sudo env PATH=$PATH'
 --etc.
 2. Wifi
 ```
-mkdir Projects && cd Projects
-git clone https://github.com/unixabg/RPI-Wireless-Hotspot.git
+curl -sL https://install.raspap.com | bash
 ```
 cd, `sudo ./install`
 3. Setup VirtualGPS
