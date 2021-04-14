@@ -33,7 +33,6 @@ alias sudo='sudo env PATH=$PATH'
 ```
 curl -sL https://install.raspap.com | bash
 ```
-cd, `sudo ./install`
 3. Setup VirtualGPS
 ```
 sudo systemctl enable virtualgps && sudo systemctl start virtualgps
