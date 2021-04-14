@@ -11,7 +11,7 @@ sudo apt upgrade
 ```
 ## Install Packages
 ```
-sudo apt -y install kstars-bleeding indi-full libindi-dev gsc ser-player virtualgps gpsd-clients indiwebmanagerapp chrony filezilla libopencv-imgproc3.2
+sudo apt -y install kstars-bleeding indi-full libindi-dev gsc ser-player virtualgps gpsd-clients chrony filezilla libopencv-imgproc3.2
 #wget https://www.qhyccd.com/uploadfile/2018/1222/20181222054634222.zip
 #unzip 20181222054634222.zip | sudo dpkg -i -
 sudo ln -s /usr/lib/arm-linux-gnueabihf/libqhyccd.so /usr/lib/arm-linux-gnueabihf/libqhyccd.so.4 && sudo ln -s /usr/lib/arm-linux-gnueabihf/libopencv_imgproc.so.3.2 /usr/lib/arm-linux-gnueabihf/libopencv_imgproc.so.2.4 && sudo ln -s /usr/lib/arm-linux-gnueabihf/libopencv_core.so.3.2 /usr/lib/arm-linux-gnueabihf/libopencv_core.so.2.4
